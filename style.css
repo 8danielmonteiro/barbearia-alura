@@ -1,0 +1,229 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.prod-header {
+  background: #bbbbbb;
+  padding: 20px 0;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+.prod-nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+.prod-nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+.prod-nav a:hover {
+  text-decoration: underline;
+  color: #c78c19;
+}
+.box {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  padding: 30px 20px;
+  margin: 0 1%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+.produtos li:hover {
+  border-color: #c78c19;
+}
+.produtos li:active {
+  border-color: #088c19;
+}
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.descricao {
+  font-size: 18px;
+}
+.preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+footer {
+  text-align: center;
+  background: url("imagens/bg.jpg");
+  padding: 20px 0;
+}
+footer .copyright {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+.c-main {
+  width: 940px;
+  margin: 0 auto;
+}
+.c-form {
+  margin: 40px auto;
+}
+.c-form-label,
+.c-input,
+.c-form-par {
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.c-input {
+  margin-bottom: 20px;
+  padding: 10px 25px;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.c-checkbox {
+  display: block;
+  margin: 20px 0;
+}
+.c-checkbox-label {
+  font-size: 20px;
+  display: block;
+  margin-bottom: 10px;
+}
+#mensagem {
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+.c-btn {
+  width: 40%;
+  padding: 15px 0;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+}
+.c-btn:hover {
+  background-color: orangered;
+  transition: 0.5s background-color;
+  cursor: pointer;
+}
+table {
+  margin: 20px 0 40px;
+}
+thead {
+  background-color: #555;
+  color: #fff;
+  font-weight: bold;
+}
+td,
+th {
+  border: 1px solid #000;
+  padding: 8px 15px;
+}
+
+.i-banner {
+  width: 100%;
+}
+.i-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 0.5em 0 1em 0;
+  clear: left;
+}
+.i-principal {
+  padding: 3em 0;
+  background-color: #fefefe;
+  width: 940px;
+  margin: 0 auto;
+}
+
+.i-principal p {
+  margin: 0 0 1em;
+}
+.i-principal strong {
+  font-weight: bold;
+}
+.i-principal em {
+  font-style: italic;
+}
+.i-imagem-beneficios {
+  width: 55%;
+}
+.i-img-principal {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.i-map {
+  padding: 3em 0;
+  background: linear-gradient(#fefefe, #888);
+}
+.i-map p {
+  margin-bottom: 2em;
+  text-align: center;
+}
+.i-map-conteudo {
+  width: 940px;
+  margin: 0 auto;
+}
+.i-video {
+  margin: 2em auto;
+  width: 560px;
+}
+.i-conteudo-beneficios {
+  width: 840px;
+  margin: 0 auto;
+}
+.i-itens-lista {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+.beneficios {
+  padding: 3em 0;
+  background-color: #888;
+}
+.itens {
+  line-height: 1.5em;
+}
+.itens:first-child {
+  font-weight: bold;
+}
+.itens:before {
+  content: "★ ";
+}
+@media screen and (max-width: 480px) {
+  .box,
+  .i-principal,
+  .i-conteudo-beneficios,
+  .i-map-conteudo,
+  .i-video {
+    width: auto;
+  }
+  .box h1 {
+    text-align: center;
+  }
+  .prod-nav {
+    position: static;
+  }
+  .i-itens-lista,
+  .i-imagem-beneficios {
+    width: 100%;
+  }
+}
