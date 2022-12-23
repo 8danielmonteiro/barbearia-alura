@@ -1,4 +1,4 @@
-body {
+.font-family {
   font-family: "Montserrat", sans-serif;
 }
 .prod-header {
@@ -225,5 +225,13 @@ th {
   .i-itens-lista,
   .i-imagem-beneficios {
     width: 100%;
+  }
+  .produtos li {
+    display: block;
+    width: 90vw;
+    margin: 5vh 5vw;
+  }
+  .prod-nav a {
+    font-size: 5.5vw;
   }
 }
