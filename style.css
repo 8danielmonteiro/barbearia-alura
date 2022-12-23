@@ -208,30 +208,62 @@ th {
 .itens:before {
   content: "★ ";
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 570px) {
   .box,
   .i-principal,
-  .i-conteudo-beneficios,
-  .i-map-conteudo,
-  .i-video {
-    width: auto;
+  .i-conteudo-beneficios {
+    width: 90%;
   }
   .box h1 {
     text-align: center;
   }
   .prod-nav {
     position: static;
+    margin-left: 3vw;
   }
   .i-itens-lista,
   .i-imagem-beneficios {
     width: 100%;
   }
-  .produtos li {
-    display: block;
-    width: 90vw;
-    margin: 5vh 5vw;
-  }
+
   .prod-nav a {
-    font-size: 5.5vw;
+    font-size: 5vw;
+  }
+  .i-map-conteudo,
+  .i-video {
+    width: 90%;
+  }
+  .i-map {
+    padding: 0;
+  }
+  .i-map p {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+}
+@media screen and (min-width: 571px) and (max-width: 996px) {
+  .box,
+  .i-principal,
+  .i-conteudo-beneficios {
+    width: 100%;
+  }
+  .box h1 {
+    margin-right: 0;
+    max-width: 100vw;
+  }
+  .i-map-conteudo,
+  .i-video {
+    width: 90%;
+  }
+  .prod-nav {
+    right: 30px;
+  }
+  .i-itens-lista {
+    margin-left: 3vw;
+    font-size: 3vw;
+  }
+  .i-imagem-beneficios {
+    width: 50vw;
   }
 }
