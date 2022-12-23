@@ -183,7 +183,7 @@ th {
   margin: 0 auto;
 }
 .i-video {
-  margin: 2em auto;
+  margin: 3em auto 2em auto;
   width: 560px;
 }
 .i-conteudo-beneficios {
@@ -194,6 +194,9 @@ th {
   width: 40%;
   display: inline-block;
   vertical-align: top;
+}
+.i-itens-lista li {
+  margin-bottom: 0.5em;
 }
 .beneficios {
   padding: 3em 0;
@@ -224,6 +227,7 @@ th {
   .i-itens-lista,
   .i-imagem-beneficios {
     width: 100%;
+    margin-bottom: 2em;
   }
 
   .prod-nav a {
@@ -244,13 +248,15 @@ th {
 }
 @media screen and (min-width: 571px) and (max-width: 996px) {
   .box,
-  .i-principal,
   .i-conteudo-beneficios {
     width: 100%;
   }
   .box h1 {
     margin-right: 0;
     max-width: 100vw;
+  }
+  .i-principal {
+    width: 90%;
   }
   .i-map-conteudo,
   .i-video {
@@ -260,10 +266,19 @@ th {
     right: 30px;
   }
   .i-itens-lista {
-    margin-left: 3vw;
-    font-size: 3vw;
+    margin-left: 5vw;
+    font-size: 2.5vw;
   }
+
   .i-imagem-beneficios {
-    width: 50vw;
+    width: 48vw;
+  }
+  .i-map {
+    padding: 0;
+  }
+  .i-map p {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2em;
   }
 }
